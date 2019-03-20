@@ -33,7 +33,7 @@ for file in dataFiles:
 
     # sorting with label values
     dfSortedByLabel = dataFrame.sort_values(by = ['label'], inplace = False, ascending = False)
-    dfSortedByLabel.to_csv("sorted_data_by_label/" + file.split('/')[1], sep='\t', index = False)
+    dfSortedByLabel.to_csv("sorted_data_by_label/" + file.split('/')[1], sep = '\t', index = False)
 
 #    print(dfSortedByLabel[['label', 'speaker', 'text']])
 
