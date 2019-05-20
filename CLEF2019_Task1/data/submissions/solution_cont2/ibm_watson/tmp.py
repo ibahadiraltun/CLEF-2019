@@ -4,7 +4,7 @@ from watson_developer_cloud.natural_language_understanding_v1 import Features, C
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version = '2018-11-16',
-    iam_apikey = 'X2Vc13XCvB-MNuGjNrK6T5Jb9hp-fiv56bHL3o4-qoi5',
+    iam_apikey = 0,
     url = 'https://gateway-lon.watsonplatform.net/natural-language-understanding/api'
 )
 
