@@ -10,7 +10,7 @@ import json
 from ibm_watson import NaturalLanguageUnderstandingV1
 from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions
 
-API_KEY = 'X2Vc13XCvB-MNuGjNrK6T5Jb9hp-fiv56bHL3o4-qoi5'
+API_KEY = 0
 URL = 'https://gateway-lon.watsonplatform.net/natural-language-understanding/api'
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
