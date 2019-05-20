@@ -2,7 +2,7 @@
 Submissions of CLEF 2019 Check-That
 - Core approach
     We have used a hybrid approach in which we use MART algorithm with 421 linguistic based features. Next, we apply a rule-based approach to decrease the ranks of sentences with phrases like “thank you”. We set the number of trees to 50 and the number of leaves to 2.
-- Important/interesting/novel novel representations used (features, embeddings...)
+- Important/interesting/novel novel representations used (features, embeddings...)\
     Primary: Our features include:\
         - the existence of named entities identified by Stanford NLP tool [1].\
         - the topic of sentences identified by IBM Watson’s NLP tool [2].\
