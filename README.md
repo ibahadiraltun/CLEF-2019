@@ -1,5 +1,6 @@
 # CLEF 2019
-http://clef2019.clef-initiative.eu/ \
+Conference Link: http://clef2019.clef-initiative.eu/ \
+Paper Link: http://ceur-ws.org/Vol-2380/paper_98.pdf \
 Submissions of CLEF 2019 Check-That
 - Core approach:
     * We have used a hybrid approach in which we use MART algorithm with 421 linguistic based features. Next, we apply a rule-based approach to decrease the ranks of sentences with phrases like “thank you”. We set the number of trees to 50 and the number of leaves to 2.
